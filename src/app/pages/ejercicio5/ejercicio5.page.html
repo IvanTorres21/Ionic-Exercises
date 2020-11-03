@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ejercicio5</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>
+      <p>Valor mínimo</p>
+    </ion-label>
+    <ion-input
+    [(ngModel)] = "min"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>
+      <p>Valor máximo</p>
+    </ion-label>
+    <ion-input
+    [(ngModel)] = "max"></ion-input>
+  </ion-item>
+  <ion-button expand="full" (click)="randNumb()">Generar</ion-button>
+  <h1 style="font-size: 100px;text-align: center;">{{rand}}</h1>
+
+</ion-content>

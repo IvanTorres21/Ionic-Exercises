@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ejercicio4</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container" style="text-align: center;">
+    <ion-item>
+      <ion-label>Nombre: </ion-label>
+      <ion-input
+      [(ngModel)] = "name"></ion-input>
+    </ion-item>
+    <ion-button expand="block" style="width: 60%;margin: 5px auto;" (click)="welcome(name)">Saludar</ion-button>
+    {{saludo}}
+  </div>
+</ion-content>

@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ejercicio3</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="container" style="margin: 0;text-align: center;">
+    <ion-button id="topBttn" (click)="changeNumber(-1)">-</ion-button>
+    <div id="bttnDivider"></div>
+    <ion-button id="topBttn" (click)="changeNumber(+1)">+</ion-button>
+    <h1 style="font-size: 120px;">{{number}}</h1>
+    <ion-button  expand="block" (click)="changeNumber(0)">RESET</ion-button>
+  </div>
+</ion-content>
