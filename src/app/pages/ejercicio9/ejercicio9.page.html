@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ejercicio9</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    Centimetros:  
+    <ion-input
+    (keyup) = "change(1)"
+    [(ngModel)] = "cm"></ion-input>
+  </ion-item>
+  <ion-item>
+    Meters:
+    <ion-input
+    (keyup) = "change(2)"
+    [(ngModel)] = "m"></ion-input>
+  </ion-item>
+  <ion-item>
+    Inches:
+    <ion-input
+    (keyup) = "change(3)"
+    [(ngModel)] = "in"></ion-input>
+  </ion-item>
+</ion-content>

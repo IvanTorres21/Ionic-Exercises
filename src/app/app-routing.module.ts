@@ -39,6 +39,18 @@ const routes: Routes = [
     path: 'ejercicio7',
     loadChildren: () => import('./pages/ejercicio7/ejercicio7.module').then( m => m.Ejercicio7PageModule)
   },
+  {
+    path: 'ejercicio8',
+    loadChildren: () => import('./pages/ejercicio8/ejercicio8.module').then( m => m.Ejercicio8PageModule)
+  },
+  {
+    path: 'ejercicio9',
+    loadChildren: () => import('./pages/ejercicio9/ejercicio9.module').then( m => m.Ejercicio9PageModule)
+  },
+  {
+    path: 'ejercicio10',
+    loadChildren: () => import('./pages/ejercicio10/ejercicio10.module').then( m => m.Ejercicio10PageModule)
+  },
 ];
 
 @NgModule({
